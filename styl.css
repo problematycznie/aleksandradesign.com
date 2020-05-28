@@ -1,0 +1,310 @@
+body{
+  font-family: 'Balsamiq Sans';
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ciuszki.jpg");
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li, a, button{
+  font-family: 'Balsamiq Sans';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: white;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_linki{
+  list-style: none;
+}
+
+.nav_linki li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_linki li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_linki li a:hover{
+  color: #FD5F00;
+}
+
+button{
+  color: white;
+  padding: 9px 25px;
+  background-color: #FD5F00;
+  border: none;
+  border-radius: 55px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; //sssss
+  margin-left: 20px;
+}
+
+button:hover{
+  background-color: white;
+  color: #FD5F00;
+}
+
+.tytul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.tytul h1{
+  font-family: 'Balsamiq Sans';
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.przycisk{
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bttn{
+  color: black;
+  padding: 9px 25px;
+  background-color: white;
+  border: none;
+  border-radius: 55px;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.bttn:hover{
+  background: black;
+  color: white;
+}
+
+.bg{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ciuszki2.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_omnie{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ciuszki3.jpg");
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+}
+
+.bg_kontakt{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ciuszki4.jpg");
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+}
+
+.content{
+  width: 90%;
+  height: 70%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kolumny{
+  margin: 10px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.kolumny .atas{
+  width: 100%;
+  height: 90.5%;
+  background: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kolumny .atas img{
+  width: 100%;
+  height: 150%;
+}
+
+.kolumny .atas img:hover{
+  width: 150%;
+  height: 200%;
+}
+
+.kolumny .tengah{
+  width: 100%;
+  height: 10%;
+  background: #FD5F00;
+  font-family: 'Balsamiq Sans';
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tengah a{
+  color: white;
+}
+
+.contact-section{
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.contact-section h1{
+  text-align: center;
+  color: white;
+  font-family: 'Balsamiq Sans';
+  font-size: 50px;
+}
+
+.border{
+  width: 100px;
+  height: 10px;
+  background: #FD5F00;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: none;
+  background: white;
+  padding: 20px 40px;
+  outline: none;
+  color: #FD5F00;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #FD5F00;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: right;
+  border: none;
+  font-family: 'Balsamiq Sans';
+  font-size: 15px;
+  background: #FD5F00;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+  background: white;
+  color: #FD5F00;
+}
+
+.info{
+  margin: auto;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Balsamiq Sans';
+  color: white;
+}
+
+.tabela{
+  background-color: white;
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 0.9em;
+  width: 700px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: 50px auto;
+}
+
+.tabela thead tr{
+  font-family: 'Balsamiq Sans';
+  background-color: #FD5F00;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tabela th{
+  font-family: 'Balsamiq Sans';
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  height: 40px;
+}
+
+.tabela tr{
+    color: #FD5F00;
+}
+
+.tabela td{
+  padding: 12px 15px;
+  font-size: 15px;
+  font-family: 'Balsamiq Sans';
+  text-align: center;
+}
+
+.tabela tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+.tabela tbody tr:last-of-type{
+  border-bottom: 4px solid #FD5F00;
+  border-radius: 10px;
+}
+
+.tabela tr:hover{
+  color: #ffffff;
+  background-color: #FD5F00;
+}
